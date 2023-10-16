@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * printf_hexadecimals - prints an hexgecimal number.
- * @val: arguments.
+ * print_hex_aux - prints an hexgecimal number.
+ * @num: arguments.
  * Return: counter.
  */
-int printf_hexadecimals(va_list val)
+int print_hex_aux(unsigned long int num)
 {
-	int i;
-	int *array;
-	int counter = 0;
-	unsigned int num = va_arg(val, unsigned int);
-	unsigned int temp = num;
+	long int i;
+	long int *array;
+	long int counter = 0;
+	unsigned long int temp = num;
 
 	while (num / 16 != 0)
 	{
@@ -19,7 +18,7 @@ int printf_hexadecimals(va_list val)
 		counter++;
 	}
 	counter++;
-	array = malloc(counter * sizeof(int));
+	array = malloc(counter * sizeof(long int));
 
 	for (i = 0; i < counter; i++)
 	{

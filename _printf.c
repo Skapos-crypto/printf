@@ -11,7 +11,7 @@ int _printf(const char * const format, ...)
 		{"%%", print_37},
 		{"%i", print_integers}, {"%d", print_decimals}, {"%r", print_srev},
 		{"%R", print_root13}, {"%b", printf_binarynum}, {"%u", print_unsigned_all},
-		{"%o", print_octals}, {"%x", print_hexlower}, {"%X", print_HEXUPPER},
+		{"%o", print_octals}, {"%x", printf_hexlower}, {"%X", printf_HEXUPPER},
 		{"%S", printf_bigstring}, {"%p", print_pointers}
 	};
 

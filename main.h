@@ -23,7 +23,7 @@ typedef struct format
 } convert_match;
 
 int print_pointers(va_list val);
-int printf_hexadecimals(unsigned long int num);
+int print_hex_aux(unsigned long int num);
 int printf_HEXDECIMALS(unsigned int num);
 int printf_bigstring(va_list val);
 int printf_HEXUPPER(va_list val);
@@ -34,7 +34,7 @@ int printf_binarynum(va_list val);
 int print_srev(va_list args);
 int print_root13(va_list args);
 int print_integers(va_list args);
-int print_deciamls(va_list args);
+int print_decimals(va_list args);
 int string_length(char *s);
 int *_strcpy(char *dest, char *src);
 int string_lenc(const char *s);
@@ -42,7 +42,7 @@ int rev_string(char *s);
 int string_lenc(const char *s);
 int print_37(void);
 int printf_letters(va_list val);
-int printf_string(va_list val);
+int print_string(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
 

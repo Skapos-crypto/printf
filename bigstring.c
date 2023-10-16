@@ -27,7 +27,7 @@ int printf_bigstring(va_list val)
 				_putchar('0');
 				len++;
 			}
-			len = len + printf_HEXADECIMALS(cast);
+			len = len + printf_HEXDECIMALS(cast);
 		}
 		else
 		{

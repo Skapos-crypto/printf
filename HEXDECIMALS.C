@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printf_HEXADECIMALS - prints an hexgecimal number.
+ * printf_HEXDECIMALS - prints an hexgecimal number.
  * @num: number to print.
  * Return: counter.
  */
-int printf_HEXADECIMALS(unsigned int num)
+int printf_HEXDECIMALS(unsigned int num)
 {
 	int i;
 	int *array;
