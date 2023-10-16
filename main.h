@@ -40,7 +40,7 @@ int *_strcpy(char *dest, char *src);
 int string_lenc(const char *s);
 int rev_string(char *s);
 int string_lenc(const char *s);
-int print_37(void);
+int printf_37(void);
 int printf_letters(va_list val);
 int print_string(va_list val);
 int _putchar(char c);
