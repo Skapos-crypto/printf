@@ -65,8 +65,5 @@ Contributions are welcome! If you'd like to improve this project, follow these s
 2. Create a new branch for your feature or bugfix.  
 3. Submit a pull request detailing your changes.  
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Acknowledgments
 Special thanks to the ALX Africa Software Engineering program for inspiring this project and providing the foundation for learning and growth.
